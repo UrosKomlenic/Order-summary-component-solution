@@ -1,0 +1,138 @@
+/*****************TYPE SELECTORS*****************/
+body {
+  background-color: hsl(225, 100%, 94%);
+  margin: auto;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+span {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 500;
+}
+
+span:hover {
+  cursor: pointer;
+  color: hsl(245, 75%, 52%, 0.5);
+  text-decoration: none;
+}
+
+
+/*****************CLASS SELECTORS*****************/
+.screen {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-pattern {
+  width: 100%;
+  position: absolute;
+}
+
+.card {
+  height: 650px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  border-radius: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  box-shadow: 0px 15px 35px  hsl(224, 23%, 55%, 0.3);
+}
+
+.hero {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  margin: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card2 {
+  padding: 35px;
+}
+
+.order-summary {
+  text-align: center;
+}
+
+.annual-plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 16px;
+  padding: 15px 20px 15px 20px;
+  line-height: 0;
+  position: relative;
+  font-family: 'Red Hat Display', sans-serif;
+  margin-bottom: 25px;
+}
+
+.music-icon {
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  top: 5px;
+}
+
+.change {
+  display: inline;
+  font-size: 16px;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.btn {
+  position: relative;
+  height: 40px;
+  border-radius: 16px;
+  border-color: hsl(245, 75%, 52%);
+  margin-bottom: 30px;
+  box-shadow: 0 5px 25px hsl(245, 75%, 52%, 0.5);
+}
+.pay{
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  font-family: 'Red Hat Display',sans-serif;
+  font-weight: 700;
+}
+.pay:hover{
+  background-color: hsl(245, 75%, 52%, 0.5);
+  cursor: pointer;
+}
+
+.btn2{
+  position: relative;
+  border-radius: 16px;
+  height: 20px;
+  text-align: center;
+
+}
+.cancel{
+  background-color:white;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+
+.cancel:hover{
+  cursor: pointer;
+  color: hsl(224, 23%, 55%, 0.5)
+}
